@@ -6,8 +6,6 @@ const app = express();
 const server = http.createServer(app);
 const wss = new WebSocket.Server({ server });
 
-
-
 const port = 3000;
 const clients = new Set();
 
